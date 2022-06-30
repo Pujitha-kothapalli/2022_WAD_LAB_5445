@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+    </head>
+    <body>
+        
+        <center>
+            <h1>
+                Form
+            </h1><br><br>
+        <form action='/formsubmit'>
+            <table height="300">
+                <tr>
+                    <td>
+                        Customer name:
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name" placeholder="enter your name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Address:
+                    </td>
+                    <td>
+                        <textarea cols="20" row="15" name="address" id="address" ></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender:
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value ="male">male
+                        <input type="radio" name="gender" value ="female">female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Languages known:
+                    </td>
+                    <td>
+                        <input type="text" name="lang"  placeholder="enter the languages known">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        City:
+                    </td>
+                    <td>
+                        <input type="text" name="city"  placeholder="enter your city">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                            <input type="submit" name="submit" value="submit">
+                            <input type="reset" name="reset" value="reset">
+                        </center>
+                    </td>
+                    
+                </tr>
+            </table>
+        </form>
+    </center>
+    </body>
+</html>
